@@ -1,0 +1,23 @@
+// TABLES
+.table-custom {
+  width: 100%;
+  background: #fff7ef;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 2px solid #d5c2ae;
+
+  th {
+    background-color: #c49a6c;
+    color: #fff;
+    padding: 1rem;
+  }
+
+  td {
+    padding: 1rem;
+    border-bottom: 1px solid #eadac7;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f2eb;
+  }
+}

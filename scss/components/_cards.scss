@@ -1,0 +1,28 @@
+// CARDS
+.card {
+  background: #fff7ef;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: 0.25s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  img {
+    width: 100%;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #5e4a3a;
+  font-size: 1rem;
+}

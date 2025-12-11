@@ -1,0 +1,21 @@
+.event-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+  transition: .3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .event-card__title {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .event-card__date {
+    color: #777;
+    margin-top: .5rem;
+  }
+}

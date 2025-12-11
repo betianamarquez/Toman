@@ -1,0 +1,23 @@
+// FORMS
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #d5c2ae;
+  border-radius: 0.6rem;
+  background-color: #faf4ee;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+
+  &:focus {
+    outline: none;
+    border-color: #c49a6c;
+  }
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  display: block;
+}

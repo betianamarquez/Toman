@@ -1,0 +1,29 @@
+// BUTTONS
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.btn-primary {
+  background-color: #c49a6c;
+  color: #fff;
+
+  &:hover {
+    background-color: #a77f55;
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #c49a6c;
+  color: #c49a6c;
+
+  &:hover {
+    background: #c49a6c;
+    color: #fff;
+  }
+}
