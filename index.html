@@ -4,12 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- SEO -->
+  <title>TOMAN | Música, Shows, Galería y Noticias</title>
+  <meta name="description" content="Escuchá la música de Toman, conocé sus próximos shows, mirá la galería y descubrí más sobre su estilo dentro del minimal y deep tech." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="TOMAN | Música y Shows" />
+  <meta property="og:description" content="Descubrí la música, shows y galería del artista Toman." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/foto cara.jpg" />
+  <meta property="og:url" content="https://betianamarquez.github.io/Toman/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Toman | Música y Shows" />
+  <meta name="twitter:description" content="Escuchá lo más nuevo de Toman y enterate de sus próximos shows." />
+  <meta name="twitter:image" content="img/foto cara.jpg" />
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-
-  <title>TOMAN</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css" />
@@ -19,7 +34,7 @@
       font-family: "Poppins", sans-serif;
       margin: 0;
       padding: 0;
-      background: #fafafa;
+      background: #c0baba;
       color: #222;
     }
 
@@ -113,7 +128,7 @@
       <h2>Escuchá lo más nuevo de Toman</h2>
 
       <!-- NAV -->
-      <nav class="menu">
+      <nav class="menu" aria-label="Menú principal">
         <ul>
           <li><a href="index.html">Inicio</a></li>
           <li><a href="pages/musica.html">Música</a></li>
@@ -124,96 +139,93 @@
       </nav>
 
       <!-- SPOTIFY -->
-<iframe 
-  src="https://open.spotify.com/embed/track/7DxrTNmUprBMQ0RV45xreb?utm_source=generator&theme=0"
-  class="spotify-mini"
-  frameborder="0"
-  allow="encrypted-media">
-</iframe>
-<iframe
-  src="https://open.spotify.com/embed/track/4mxCb5HKGdXGTGFeh2nMTC?utm_source=generator&theme=0"
-  class="spotify-mini"
-  width="100%"
-  height="152"
-  frameborder="0"
-  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
-</iframe>
+      <iframe 
+        src="https://open.spotify.com/embed/track/7DxrTNmUprBMQ0RV45xreb?utm_source=generator&theme=0"
+        class="spotify-mini"
+        title="Reproductor de Spotify - pista 1"
+        loading="lazy"
+        allow="encrypted-media">
+      </iframe>
 
-
-
-
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero__content container">
-      <h2 class="hero__title">Toman</h2>
-      <p class="hero__subtitle">Deep Minimal / Tech Grooves</p>
-
-      <img
-        src="img/foto cara.jpg"
-        alt="cara de toman"
-        style="max-width:320px; width:100%; border-radius:14px; box-shadow:0 4px 20px rgba(0,0,0,0.15);">
-    </div>
-  </section>
-
-  <!-- ABOUT ARTIST -->
-  <section class="artist-info container">
-    <h3>Sobre el Artista</h3>
-    <p>
-      Toman es un DJ y productor neerlandés reconocido por su enfoque elegante dentro del minimal house y el deep tech.
-      Mezcla house, minimal y ritmos pegadizos que hacen imposible quedarse quieto. Sus tracks ya dieron vueltas por clubes
-      y festivales de varios países, y cada vez suma más gente que conecta con su sonido.
-      Con un enfoque relajado pero muy fino para producir, Toman se ganó un lugar en la escena gracias a su energía en vivo
-      y un estilo propio.
-    </p>
-  </section>
-
-  <!-- Eventos -->
-  <section class="events container">
-    <h3>Próximos Shows</h3>
-    <div class="events__grid">
-
-      <div class="event-card">
-        <h4>Barcelona — 22 Feb</h4>
-        <p>Club XYZ</p>
-      </div>
-
-      <div class="event-card">
-        <h4>Ámsterdam — 12 Mar</h4>
-        <p>Warehouse District</p>
-      </div>
-
-      <div class="event-card">
-        <h4>Buenos Aires — 7 Abr</h4>
-        <p>CROBAR</p>
-      </div>
+      <iframe
+        src="https://open.spotify.com/embed/track/4mxCb5HKGdXGTGFeh2nMTC?utm_source=generator&theme=0"
+        class="spotify-mini"
+        title="Reproductor de Spotify - pista 2"
+        loading="lazy"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+      </iframe>
 
     </div>
-  </section>
+  </header>
 
-  <!-- Galeria -->
-<section class="gallery">
-  <div class="container">
-    <h3>Galería</h3>
+  <main>
 
-    <p>
-      La galería presenta una selección de retratos de Toman que reflejan su estilo y personalidad dentro de la escena electrónica. 
-      Las fotografías, centradas en su rostro, muestran distintas expresiones y enfoques: desde planos cerrados con luz suave 
-      hasta imágenes más contrastadas que destacan su mirada y su presencia tranquila.
-      Junto a estos retratos, también se incluyen algunas de las portadas de sus álbumes, con un estilo simple y moderno.
-    </p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__content container">
+        <h2 class="hero__title">Toman</h2>
+        <p class="hero__subtitle">Deep Minimal / Tech Grooves</p>
 
-    <div class="gallery__grid">
-       <img src="img/toman pose dos.jpg" alt="foto posando">
-      <img src="img/toman pose.jpg" alt="foto posando">
-      <img src="img/logo de su album.jpg" alt="foto de su album">
-      <img src="img/album dos.jpg" alt="foto de su album">
-      <img src="img/album tres.jpg" alt="foto de su album">
-    </div>
-  </div>
-</section>
+        <img
+          src="img/foto cara.jpg"
+          alt="Imagen promocional del artista"
+          style="max-width:320px; width:100%; border-radius:14px; box-shadow:0 4px 20px rgba(0,0,0,0.15);">
+      </div>
+    </section>
 
+    <!-- ABOUT ARTIST -->
+    <section class="artist-info container">
+      <h3>Sobre el Artista</h3>
+      <p>
+        Toman es un DJ y productor neerlandés reconocido por su enfoque elegante dentro del minimal house y el deep tech.
+        Mezcla house, minimal y ritmos pegadizos que generan una energía única en sus presentaciones.
+        Sus tracks recorrieron clubes y festivales de varios países, consolidando su estilo propio.
+      </p>
+    </section>
 
+    <!-- Eventos -->
+    <section class="events container">
+      <h3>Próximos Shows</h3>
+      <div class="events__grid">
+
+        <div class="event-card">
+          <h4>Barcelona — 22 Feb</h4>
+          <p>Club XYZ</p>
+        </div>
+
+        <div class="event-card">
+          <h4>Ámsterdam — 12 Mar</h4>
+          <p>Warehouse District</p>
+        </div>
+
+        <div class="event-card">
+          <h4>Buenos Aires — 7 Abr</h4>
+          <p>CROBAR</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="gallery">
+      <div class="container">
+        <h3>Galería</h3>
+
+        <p>
+          La galería presenta una selección de imágenes relacionadas con el artista, incluyendo fotografías promocionales y portadas de álbumes con un estilo moderno.
+        </p>
+
+        <div class="gallery__grid">
+          <img src="img/toman pose dos.jpg" alt="Imagen del artista en pose">
+          <img src="img/toman pose.jpg" alt="Imagen promocional del artista">
+          <img src="img/logo de su album.jpg" alt="Portada de álbum">
+          <img src="img/album dos.jpg" alt="Portada de álbum">
+          <img src="img/album tres.jpg" alt="Portada de álbum">
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -223,16 +235,16 @@
       <h4>Seguilo en sus redes sociales:</h4>
 
       <div class="d-flex justify-content-center gap-3 mt-2">
-        <a href="https://x.com/tomanmusic" target="_blank">
-          <img src="img/logo-black.png" width="40">
+        <a href="https://x.com/tomanmusic" target="_blank" aria-label="Twitter oficial">
+          <img src="img/logo-black.png" width="40" alt="Logo de Twitter">
         </a>
 
-        <a href="https://www.facebook.com/tomanmusic/?locale=es_LA" target="_blank">
-          <img src="img/Facebook_Logo_(2019).png" width="40">
+        <a href="https://www.facebook.com/tomanmusic/?locale=es_LA" target="_blank" aria-label="Facebook oficial">
+          <img src="img/Facebook_Logo_(2019).png" width="40" alt="Logo de Facebook">
         </a>
 
-        <a href="https://www.instagram.com/tomanmusic/" target="_blank">
-          <img src="img/Instagram_Glyph_Gradient.png" width="40">
+        <a href="https://www.instagram.com/tomanmusic/" target="_blank" aria-label="Instagram oficial">
+          <img src="img/Instagram_Glyph_Gradient.png" width="40" alt="Logo de Instagram">
         </a>
       </div>
     </div>
